@@ -15,7 +15,6 @@
 }
 .calculator{
     background: #3a4452;
-    padding: 20px;
     border: 10px;
 }
 .calculator form input{
@@ -26,7 +25,6 @@
     border-radius: 10px;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
     background: transparent;
-    font-size: 20px;
     color: #fff;
     cursor: pointer;
     margin: 10px;
@@ -35,7 +33,7 @@
 form .display{
     display: flex;
     justify-content: flex-end;
-    margin: 20px 0;
+    margin: 0;
 }
 
 form .display input{
@@ -49,4 +47,13 @@ form input.equal{
 }
 form input.operator{
     color: #33ffd8;
+}
+.shizuka{
+    position: absolute;
+    float: right;
+    height: 564px;
+    width: 350px;
+    top: 100px;
+    right: 100px;
+    filter: drop-shadow(13px -3px 22px black);
 }
