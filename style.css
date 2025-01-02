@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     border-radius: 10px;
 }
-.container{
+.container {
     width: 100%;
     height: 100vh;
     background: #a0e6f9;
@@ -13,11 +13,11 @@
     align-items: center;
     justify-content: center;
 }
-.calculator{
+.calculator {
     background: #3a4452;
     border: 10px;
 }
-.calculator form input{
+.calculator form input {
     border: 0;
     outline: 0;
     width: 60px;
@@ -29,26 +29,24 @@
     cursor: pointer;
     margin: 10px;
 }
-
-form .display{
+form .display {
     display: flex;
     justify-content: flex-end;
     margin: 0;
 }
-
-form .display input{
+form .display input {
     text-align: right;
     flex: 1;
     font-size: 45px;
     box-shadow: none;
 }
-form input.equal{
+form input.equal {
     width: 145px;
 }
-form input.operator{
+form input.operator {
     color: #33ffd8;
 }
-.shizuka{
+.shizuka {
     position: absolute;
     float: right;
     height: 564px;
