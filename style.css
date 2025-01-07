@@ -15,7 +15,7 @@
 }
 h1{
     color:orange;
-    filter: drop-shadow(13px -3px 22px black);
+    background: #a0e6f9;
 }
 .calculator {
     background: #3a4452;
