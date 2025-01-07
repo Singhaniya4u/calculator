@@ -13,6 +13,10 @@
     align-items: center;
     justify-content: center;
 }
+h1{
+    color:orange;
+    filter: drop-shadow(13px -3px 22px black);
+}
 .calculator {
     background: #3a4452;
     border: 10px;
